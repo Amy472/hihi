@@ -1,0 +1,8 @@
+barplot(table(vgsales$Platform), las = 2, main = "Number of Video Game sales by Platform", xlab = "Platform", las = 2, ylab = "Sales (millions)")
+
+barplot(table(vgsales$Genre), las = 2, main = "Games sale by Genres", xlab = " ", ylab = "Sales (millions)")
+mtext("Genres", line = -23)
+
+hist(vgsales$NA_Sales, main = "Video Game Sales in NA", xlab = "NA_Sales (millions)")
+
+hist(vgsales$JP_Sales, main = "Video Game Sales in JP", xlab = "JP_Sales(millions)")
